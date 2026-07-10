@@ -42,7 +42,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-**ИИ / LLM** — разворачиваю и дообучаю LLM (локально и на GPU); при необходимости пользуюсь ИИ-инструментами  
+**ИИ / LLM** — разворачиваю и дообучаю LLM; при необходимости пользуюсь ИИ-инструментами в работе  
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
