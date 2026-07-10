@@ -57,7 +57,7 @@
 ![Private repos](https://img.shields.io/badge/Private%20repos-10-475569?style=for-the-badge&logo=github&logoColor=white)
 ![Followers](https://img.shields.io/github/followers/Ryuga-Hideki-L?style=for-the-badge&label=Followers&color=2d6db4&logo=github&logoColor=white)
 
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ryuga-Hideki-L&hide_border=true&background=0D1B2A&stroke=2D6DB4&ring=8AADF4&fire=F46800&currStreakNum=FFFFFF&currStreakLabel=8AADF4&sideNums=C9D1D9&sideLabels=8AADF4&dates=6E7681" alt="streak" />
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ryuga-Hideki-L&theme=tokyonight&hide_border=true&border_radius=8" alt="streak" />
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ryuga-Hideki-L&theme=tokyo-night&hide_border=true&area=true&color=8aadf4&line=8aadf4&point=ffffff" alt="activity graph" />
 
