@@ -3,9 +3,9 @@
 > Nah, I'd win.
 
 Backend developer working mostly in **Go** — services, REST/WebSocket APIs, real-time
-logic, databases. Building toward doing it professionally, and picky about code that's
-boring in the good way: predictable, tested, easy to trust. When a project needs the
-whole thing, I take it full-stack — TypeScript/React on top, SQL underneath.
+logic, and the databases behind them. Building toward doing it professionally, and picky
+about code that's boring in the good way: predictable, tested, easy to trust. When a
+project needs the whole thing, I take it full-stack — TypeScript/React on top, SQL underneath.
 
 **Core stack**
 
