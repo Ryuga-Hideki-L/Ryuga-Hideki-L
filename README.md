@@ -43,6 +43,11 @@
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 ![vLLM](https://img.shields.io/badge/vLLM-4B2E83?style=flat-square)
 ![Fine-tuning / LoRA](https://img.shields.io/badge/Fine--tuning%20%2F%20LoRA-6C3483?style=flat-square)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-1B72E8?style=flat-square&logo=googlegemini&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
 
 **Фронт по необходимости**  
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
@@ -51,10 +56,10 @@
 
 <div align="center">
 
-![Контрибуций за год](https://img.shields.io/badge/%D0%9A%D0%BE%D0%BD%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%86%D0%B8%D0%B9%20%D0%B7%D0%B0%20%D0%B3%D0%BE%D0%B4-450-3E7A5E?style=for-the-badge&logo=github&logoColor=white)
-![Public repos](https://img.shields.io/badge/%D0%9F%D1%83%D0%B1%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B5%D0%BF%D0%BE-4-2d6db4?style=for-the-badge&logo=github&logoColor=white)
-![Private repos](https://img.shields.io/badge/%D0%9F%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%BD%D1%8B%D0%B5%20%D1%80%D0%B5%D0%BF%D0%BE-10-475569?style=for-the-badge&logo=github&logoColor=white)
-![Stars](https://img.shields.io/badge/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D1%8B-3-D7BA7D?style=for-the-badge&logo=github&logoColor=white)
+![Контрибуций за год](https://img.shields.io/badge/Contributions%20this%20year-450-3E7A5E?style=for-the-badge&logo=github&logoColor=white)
+![Public repos](https://img.shields.io/badge/Public%20repos-4-2d6db4?style=for-the-badge&logo=github&logoColor=white)
+![Private repos](https://img.shields.io/badge/Private%20repos-10-475569?style=for-the-badge&logo=github&logoColor=white)
+![Stars](https://img.shields.io/badge/Stars-3-D7BA7D?style=for-the-badge&logo=github&logoColor=white)
 
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ryuga-Hideki-L&hide_border=true&custom_title=%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8&bg_color=0A0A0A&color=C0C6CF&line=8A93A8&point=D6DBE3&area=true&area_color=141414&title_color=9AA1AD" alt="activity graph" />
