@@ -19,6 +19,8 @@
 
 <img src="https://raw.githubusercontent.com/Ryuga-Hideki-L/Ryuga-Hideki-L/main/divider.png" width="100%" alt="" />
 
+<div align="center">
+
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Gin](https://img.shields.io/badge/Gin-008ECF?style=flat-square)
 ![Echo](https://img.shields.io/badge/Echo-00B5A3?style=flat-square)
@@ -45,12 +47,16 @@
 ![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=flat-square&logo=linux&logoColor=FCC624)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**Фронт по необходимости**  
+<h4>Фронт по необходимости</h4>
+
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-**ИИ / LLM** — разворачиваю и дообучаю LLM; при необходимости пользуюсь ИИ-инструментами в работе  
+<h4>ИИ / LLM</h4>
+
+<sub>разворачиваю и дообучаю LLM; при необходимости пользуюсь ИИ-инструментами в работе</sub>
+
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
@@ -61,6 +67,8 @@
 ![Gemini](https://img.shields.io/badge/Gemini-1B72E8?style=flat-square&logo=googlegemini&logoColor=white)
 ![Codex](https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white)
 ![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
+
+</div>
 
 <img src="https://raw.githubusercontent.com/Ryuga-Hideki-L/Ryuga-Hideki-L/main/divider.png" width="100%" alt="" />
 
