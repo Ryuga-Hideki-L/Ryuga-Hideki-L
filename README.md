@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,100:2d6db4&height=170&section=header&text=Ryuga%20Hideki&fontSize=48&fontColor=ffffff&desc=Backend%20Engineer%20%C2%B7%20Go&descSize=17&descAlignY=66&fontAlignY=40" alt="header" />
 
-**Nah, I'd win.**
+*Vita theatrum est; Vincet sapientissimus.*
 
 Бэкенд-разработчик, в основном на **Go** — сервисы, REST/WebSocket/gRPC API, реалтайм-логика и базы под ними.<br>
 Иду к тому, чтобы делать это профессионально. Нужен весь стек — беру фулстек: Angular/React сверху, SQL снизу.
