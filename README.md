@@ -56,11 +56,12 @@
 
 <div align="center">
 
-![Контрибуций за год](https://img.shields.io/badge/Contributions%20this%20year-450-3E7A5E?style=for-the-badge&logo=github&logoColor=white)
 ![Public repos](https://img.shields.io/badge/Public%20repos-4-2d6db4?style=for-the-badge&logo=github&logoColor=white)
 ![Private repos](https://img.shields.io/badge/Private%20repos-10-475569?style=for-the-badge&logo=github&logoColor=white)
 ![Stars](https://img.shields.io/badge/Stars-3-D7BA7D?style=for-the-badge&logo=github&logoColor=white)
 
+
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ryuga-Hideki-L&hide_border=true&border_radius=10&background=0A0A0A&ring=8A93A8&fire=B69154&currStreakNum=D6DBE3&currStreakLabel=9AA1AD&sideNums=C0C6CF&sideLabels=8A93A8&dates=5A606B&excludeDaysLabel=5A606B" alt="streak" />
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ryuga-Hideki-L&hide_border=true&custom_title=%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8&bg_color=0A0A0A&color=C0C6CF&line=8A93A8&point=D6DBE3&area=true&area_color=141414&title_color=9AA1AD" alt="activity graph" />
 
