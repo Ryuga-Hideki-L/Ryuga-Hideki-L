@@ -59,7 +59,7 @@
 
 <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ryuga-Hideki-L&hide_border=true&border_radius=10&background=1A1B27&ring=9AA5CE&fire=D7BA7D&currStreakNum=C0CAF5&currStreakLabel=9AA5CE&sideNums=A9B1D6&sideLabels=7F8BB3&dates=565F89&excludeDaysLabel=565F89" alt="streak" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ryuga-Hideki-L&theme=tokyo-night&hide_border=true&area=true&color=8aadf4&line=8aadf4&point=ffffff" alt="activity graph" />
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ryuga-Hideki-L&hide_border=true&bg_color=1A1B27&color=C0CAF5&line=8AA6D8&point=C0CAF5&area=true&area_color=222436&title_color=9AA5CE" alt="activity graph" />
 
 
 </div>
