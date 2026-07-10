@@ -13,9 +13,9 @@
 
 </div>
 
-<img src="https://raw.githubusercontent.com/Ryuga-Hideki-L/Ryuga-Hideki-L/main/divider.png" width="100%" alt="" />
-
 <h3 align="center">Стек</h3>
+
+<img src="https://raw.githubusercontent.com/Ryuga-Hideki-L/Ryuga-Hideki-L/main/divider.png" width="100%" alt="" />
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Gin](https://img.shields.io/badge/Gin-008ECF?style=flat-square)
