@@ -37,7 +37,7 @@
 ![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=flat-square&logo=linux&logoColor=FCC624)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**ИИ / LLM** — разворачиваю и дообучаю модели (локально и на GPU), в работе активно пользуюсь ИИ-инструментами  
+**ИИ / LLM** — разворачиваю и дообучаю LLM (локально и на GPU); при необходимости пользуюсь ИИ-инструментами  
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
@@ -53,9 +53,11 @@
 
 <div align="center">
 
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ryuga-Hideki-L&theme=tokyonight&hide_border=true" alt="streak" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ryuga-Hideki-L&theme=tokyo-night&hide_border=true&area=true&color=8aadf4&line=8aadf4&point=ffffff" alt="activity graph" />
 
+
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d6db4,100:0d1b2a&height=110&section=footer" alt="footer" />
