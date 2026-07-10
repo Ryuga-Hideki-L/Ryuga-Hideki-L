@@ -2,6 +2,10 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,100:2d6db4&height=170&section=header&text=Ryuga%20Hideki&fontSize=48&fontColor=ffffff&desc=%D0%91%D1%8D%D0%BA%D0%B5%D0%BD%D0%B4-%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%C2%B7%20Go&descSize=17&descAlignY=66&fontAlignY=40" alt="header" />
 
+![Public repos](https://img.shields.io/badge/Public%20repos-4-2d6db4?style=for-the-badge&logo=github&logoColor=white)
+![Private repos](https://img.shields.io/badge/Private%20repos-10-475569?style=for-the-badge&logo=github&logoColor=white)
+![Stars](https://img.shields.io/badge/Stars-3-D7BA7D?style=for-the-badge&logo=github&logoColor=white)
+
 *Vita theatrum est; Vincet sapientissimus.*
 
 Бэкенд-разработчик на **Go**: проектирую сервисы, REST/WebSocket/gRPC API, реалтайм-логику и данные под ними.<br>
@@ -9,7 +13,9 @@
 
 </div>
 
-## 🛠 Стек
+<img src="https://raw.githubusercontent.com/Ryuga-Hideki-L/Ryuga-Hideki-L/main/divider.png" width="100%" alt="" />
+
+<h3 align="center">Стек</h3>
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Gin](https://img.shields.io/badge/Gin-008ECF?style=flat-square)
@@ -54,17 +60,13 @@
 ![Codex](https://img.shields.io/badge/Codex-000000?style=flat-square&logo=openai&logoColor=white)
 ![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
 
+<img src="https://raw.githubusercontent.com/Ryuga-Hideki-L/Ryuga-Hideki-L/main/divider.png" width="100%" alt="" />
+
 <div align="center">
-
-![Public repos](https://img.shields.io/badge/Public%20repos-4-2d6db4?style=for-the-badge&logo=github&logoColor=white)
-![Private repos](https://img.shields.io/badge/Private%20repos-10-475569?style=for-the-badge&logo=github&logoColor=white)
-![Stars](https://img.shields.io/badge/Stars-3-D7BA7D?style=for-the-badge&logo=github&logoColor=white)
-
 
 <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ryuga-Hideki-L&hide_border=true&border_radius=10&background=0A0A0A&ring=8A93A8&fire=B69154&currStreakNum=D6DBE3&currStreakLabel=9AA1AD&sideNums=C0C6CF&sideLabels=8A93A8&dates=5A606B&excludeDaysLabel=5A606B" alt="streak" />
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ryuga-Hideki-L&hide_border=true&custom_title=%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA%20%D0%B0%D0%BA%D1%82%D0%B8%D0%B2%D0%BD%D0%BE%D1%81%D1%82%D0%B8&bg_color=0A0A0A&color=C0C6CF&line=8A93A8&point=D6DBE3&area=true&area_color=141414&title_color=9AA1AD" alt="activity graph" />
-
 
 </div>
 
