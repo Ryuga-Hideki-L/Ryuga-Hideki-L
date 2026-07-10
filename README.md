@@ -5,7 +5,7 @@
 *Vita theatrum est; Vincet sapientissimus.*
 
 Бэкенд-разработчик на **Go**: проектирую сервисы, REST/WebSocket/gRPC API, реалтайм-логику и данные под ними.<br>
-При крайней необходимости закрываю и фронт (Angular/React) — но дом у меня на бэке.
+При крайней необходимости закрываю и фронт (Angular/React).
 
 </div>
 
