@@ -53,8 +53,6 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ryuga-Hideki-L&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ryuga-Hideki-L&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="top languages" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ryuga-Hideki-L&theme=tokyonight&hide_border=true" alt="streak" />
 
