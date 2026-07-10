@@ -2,9 +2,10 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,100:2d6db4&height=170&section=header&text=Ryuga%20Hideki&fontSize=48&fontColor=ffffff&desc=%D0%91%D1%8D%D0%BA%D0%B5%D0%BD%D0%B4-%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%C2%B7%20Go&descSize=17&descAlignY=66&fontAlignY=40" alt="header" />
 
-![Public repos](https://img.shields.io/badge/Public%20repos-4-2d6db4?style=for-the-badge&logo=github&logoColor=white)
-![Private repos](https://img.shields.io/badge/Private%20repos-10-475569?style=for-the-badge&logo=github&logoColor=white)
 ![Stars](https://img.shields.io/badge/Stars-3-D7BA7D?style=for-the-badge&logo=github&logoColor=white)
+![Private repos](https://img.shields.io/badge/Private%20repos-10-475569?style=for-the-badge&logo=github&logoColor=white)
+![Following](https://img.shields.io/badge/Following-5-3E7A5E?style=for-the-badge&logo=github&logoColor=white)
+![Location](https://img.shields.io/badge/Location-Japan-BC002D?style=for-the-badge&logo=googlemaps&logoColor=white)
 
 *Vita theatrum est; Vincet sapientissimus.*
 
