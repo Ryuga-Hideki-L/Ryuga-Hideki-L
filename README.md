@@ -54,6 +54,7 @@
 <div align="center">
 
 ![Public repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FRyuga-Hideki-L&query=%24.public_repos&label=Public%20repos&color=2d6db4&style=for-the-badge&logo=github&logoColor=white)
+![Private repos](https://img.shields.io/badge/Private%20repos-10-475569?style=for-the-badge&logo=github&logoColor=white)
 ![Followers](https://img.shields.io/github/followers/Ryuga-Hideki-L?style=for-the-badge&label=Followers&color=2d6db4&logo=github&logoColor=white)
 
 <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ryuga-Hideki-L&hide_border=true&background=0D1B2A&stroke=2D6DB4&ring=8AADF4&fire=F46800&currStreakNum=FFFFFF&currStreakLabel=8AADF4&sideNums=C9D1D9&sideLabels=8AADF4&dates=6E7681" alt="streak" />
