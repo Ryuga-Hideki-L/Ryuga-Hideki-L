@@ -1,13 +1,15 @@
-## Ryuga Hideki — Backend-инженер
+<div align="center">
 
-> Nah, I'd win.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,100:2d6db4&height=170&section=header&text=Ryuga%20Hideki&fontSize=48&fontColor=ffffff&desc=Backend%20Engineer%20%C2%B7%20Go&descSize=17&descAlignY=66&fontAlignY=40" alt="header" />
 
-Бэкенд-разработчик, в основном на **Go** — сервисы, REST/WebSocket/gRPC API, реалтайм-логика
-и базы под ними. Иду к тому, чтобы делать это профессионально; ценю код, который «скучный»
-в хорошем смысле: предсказуемый, покрытый тестами, которому легко доверять. Когда проекту
-нужен весь стек — беру фулстек: Angular/React сверху, SQL снизу.
+**Nah, I'd win.**
 
-### Стек
+Бэкенд-разработчик, в основном на **Go** — сервисы, REST/WebSocket/gRPC API, реалтайм-логика и базы под ними.<br>
+Иду к тому, чтобы делать это профессионально. Нужен весь стек — беру фулстек: Angular/React сверху, SQL снизу.
+
+</div>
+
+## 🛠 Стек
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Gin](https://img.shields.io/badge/Gin-008ECF?style=flat-square)
@@ -35,20 +37,27 @@
 ![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=flat-square&logo=linux&logoColor=FCC624)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**ИИ / LLM**  
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-10A37F?style=flat-square)
+**ИИ / LLM** — разворачиваю и дообучаю модели (локально и на GPU), в работе активно пользуюсь ИИ-инструментами  
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-4B2E83?style=flat-square)
+![Fine-tuning / LoRA](https://img.shields.io/badge/Fine--tuning%20%2F%20LoRA-6C3483?style=flat-square)
 
 **Фронт по необходимости**  
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
----
+## 📊 Активность
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Ryuga-Hideki-L&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ryuga-Hideki-L&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="top languages" />
-</p>
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ryuga-Hideki-L&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ryuga-Hideki-L&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="top languages" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ryuga-Hideki-L&theme=tokyonight&hide_border=true" alt="streak" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ryuga-Hideki-L&theme=tokyo-night&hide_border=true&area=true&color=8aadf4&line=8aadf4&point=ffffff" alt="activity graph" />
+
+</div>
