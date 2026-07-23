@@ -76,8 +76,6 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/Ryuga-Hideki-L/Ryuga-Hideki-L/main/stats.svg" alt="stats" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ryuga-Hideki-L&hide_border=true&hide_title=true&radius=16&height=300&area=true&bg_color=0A0A0A&color=8AA6D8&line=8AA6D8&point=D6DBE3&area_color=141B2E&_cb=20260710a" alt="activity" />
-
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d6db4,100:0d1b2a&height=110&section=footer" alt="footer" />
