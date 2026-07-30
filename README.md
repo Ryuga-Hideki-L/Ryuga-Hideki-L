@@ -5,7 +5,7 @@
 ![Stars](https://img.shields.io/badge/Stars-4-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
 ![Repositories](https://img.shields.io/badge/Repositories-29-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
 ![Private repos](https://img.shields.io/badge/Private%20repos-23-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
-![Followers](https://img.shields.io/badge/Followers-3-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
+![Followers](https://img.shields.io/badge/Followers-2-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
 ![Focus](https://img.shields.io/badge/Focus-Go%20Backend-2d6db4?style=for-the-badge&logo=go&logoColor=white&labelColor=161b22)
 
 *Vita theatrum est; Vincet sapientissimus.*
