@@ -1,8 +1,8 @@
 <div align="center">
 
-<p align="center"><b>English</b> · <a href="README.ru.md">Русский</a></p>
+<p align="center"><a href="README.en.md">English</a> · <b>Русский</b></p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,100:2d6db4&height=170&section=header&text=Ryuga%20Hideki&fontSize=48&fontColor=ffffff&desc=Backend%20Engineer%20%C2%B7%20Go&descSize=17&descAlignY=66&fontAlignY=40" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,100:2d6db4&height=170&section=header&text=Ryuga%20Hideki&fontSize=48&fontColor=ffffff&desc=%D0%91%D1%8D%D0%BA%D0%B5%D0%BD%D0%B4-%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%20%C2%B7%20Go&descSize=17&descAlignY=66&fontAlignY=40" alt="header" />
 
 ![Stars](https://img.shields.io/badge/Stars-4-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
 ![Repositories](https://img.shields.io/badge/Repositories-29-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
@@ -12,12 +12,12 @@
 
 *Vita theatrum est; Vincet sapientissimus.*
 
-Backend developer working in **Go**: services, REST/WebSocket/gRPC APIs, realtime logic and the data underneath.<br>
-When there is no one else for it, I take the frontend too (Angular/React).
+Бэкенд-разработчик на **Go**: проектирую сервисы, REST/WebSocket/gRPC API, реалтайм-логику и данные под ними.<br>
+При крайней необходимости закрываю и фронт (Angular/React).
 
 </div>
 
-<h3 align="center">Stack</h3>
+<h3 align="center">Стек</h3>
 
 <img src="https://raw.githubusercontent.com/Ryuga-Hideki-L/Ryuga-Hideki-L/main/divider.png" width="100%" alt="" />
 
@@ -49,15 +49,15 @@ When there is no one else for it, I take the frontend too (Angular/React).
 ![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=flat-square&logo=linux&logoColor=FCC624)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-<h4>Frontend when needed</h4>
+<h4>Фронт по необходимости</h4>
 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-<h4>AI / LLM</h4>
+<h4>ИИ / LLM</h4>
 
-<sub>deploying and fine-tuning LLMs; using AI tooling in day-to-day work where it helps</sub>
+<sub>разворачиваю и дообучаю LLM; при необходимости пользуюсь ИИ-инструментами в работе</sub>
 
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
