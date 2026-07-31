@@ -1,67 +1,97 @@
 #!/usr/bin/env python3
-# Обновляет плашки в README.md актуальными числами из GitHub API:
-# Stars (сумма звёзд по своим репам), Repositories (всего своих),
-# Private repos (приватных), Followers. Плашка Focus — ручная, не трогается.
+# Обновляет плашки в README.md: Stars, Repositories, Private repos, Followers.
+# Плашка Focus — ручная, не трогается.
+#
+# Всё берётся ОДНИМ запросом GraphQL, и это принципиально.
+#
+# Раньше числа приходили из двух разных мест REST: количество репозиториев из
+# /user (поля public_repos и total_private_repos), а звёзды — обходом
+# /user/repos. У этих двух источников РАЗНАЯ видимость под одним и тем же
+# токеном: /user/repos с affiliation=owner отдавал все репозитории, а /user
+# показывал total_private_repos=0, если токену не хватало областей. В итоге
+# плашки противоречили друг другу — «Stars 4» при двадцати девяти звёздах и
+# «Repositories 29» при шести видимых.
+#
+# У GraphQL видимость одна на весь запрос: либо токен видит приватное целиком,
+# либо не видит ничего, и тогда это заметно сразу, а не превращается в
+# правдоподобную чушь.
 import json
 import os
 import re
+import sys
 import urllib.request
 
 TOKEN = os.environ["GH_TOKEN"]
 
+QUERY = """
+{
+  viewer {
+    login
+    followers { totalCount }
+    private: repositories(ownerAffiliations: OWNER, privacy: PRIVATE) { totalCount }
+    all: repositories(ownerAffiliations: OWNER, first: 100) {
+      totalCount
+      nodes { stargazerCount }
+    }
+  }
+}
+"""
 
-def api(path):
+
+def graphql(query):
     req = urllib.request.Request(
-        "https://api.github.com" + path,
+        "https://api.github.com/graphql",
+        data=json.dumps({"query": query}).encode(),
         headers={
             "Authorization": "Bearer " + TOKEN,
-            "Accept": "application/vnd.github+json",
-            "User-Agent": "profile-stats",
+            "Content-Type": "application/json",
+            "User-Agent": "profile-badges",
         },
     )
     with urllib.request.urlopen(req, timeout=20) as r:
-        return json.load(r)
+        out = json.load(r)
+    if "errors" in out:
+        sys.exit("GraphQL: " + json.dumps(out["errors"], ensure_ascii=False))
+    return out["data"]
 
 
 def main():
-    u = api("/user")
-    followers = u.get("followers", 0)
-    public_repos = u.get("public_repos", 0)
-    private_repos = u.get("total_private_repos", 0)
-    repositories = public_repos + private_repos
-
-    stars, page = 0, 1
-    while True:
-        repos = api("/user/repos?per_page=100&affiliation=owner&page=%d" % page)
-        if not repos:
-            break
-        stars += sum(r.get("stargazers_count", 0) for r in repos)
-        if len(repos) < 100:
-            break
-        page += 1
-
-    values = {
+    v = graphql(QUERY)["viewer"]
+    stars = sum(n["stargazerCount"] for n in v["all"]["nodes"])
+    counts = {
         "Stars": stars,
-        "Repositories": repositories,
-        "Private%20repos": private_repos,
-        "Followers": followers,
+        "Repositories": v["all"]["totalCount"],
+        "Private%20repos": v["private"]["totalCount"],
+        "Followers": v["followers"]["totalCount"],
     }
+
+    # Токен без доступа к приватному отдаёт ноль приватных репозиториев и
+    # заниженные звёзды. Молча записать это в плашки — значит показать миру
+    # неправду и не узнать об этом: падаем, чтобы поломка была видна в логе
+    # Actions, а плашки остались прежними.
+    if counts["Private%20repos"] == 0 and counts["Repositories"] <= 10:
+        sys.exit("Токен не видит приватные репозитории — плашки не трогаю. "
+                 "Нужен classic PAT с областями repo и read:user.")
 
     with open("README.md", encoding="utf-8") as f:
         readme = f.read()
 
-    for label, val in values.items():
+    before = readme
+    for label, value in counts.items():
         # badge/<label>-<число>-  →  подменяем только число
         readme = re.sub(
             r"(badge/" + re.escape(label) + r"-)\d+(-)",
-            lambda m: m.group(1) + str(val) + m.group(2),
+            lambda m, v=value: m.group(1) + str(v) + m.group(2),
             readme,
         )
 
-    with open("README.md", "w", encoding="utf-8") as f:
-        f.write(readme)
+    if readme != before:
+        with open("README.md", "w", encoding="utf-8") as f:
+            f.write(readme)
 
-    print("stars=%d repos=%d private=%d followers=%d" % (stars, repositories, private_repos, followers))
+    print("stars={} repos={} private={} followers={}".format(
+        counts["Stars"], counts["Repositories"],
+        counts["Private%20repos"], counts["Followers"]))
 
 
 if __name__ == "__main__":
