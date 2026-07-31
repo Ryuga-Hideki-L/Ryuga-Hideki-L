@@ -1,10 +1,13 @@
-<!-- Страница ОДНА и на двух языках сразу, без переключателя.
-     Раньше здесь лежали две копии профиля в <details>: английская
-     раскрытая, русская свёрнутая. Но копии отличались друг от друга
-     шестью строками из восьмидесяти шести — весь остальной текст это
-     названия технологий, одинаковые на любом языке. Ради шести строк
-     страница весила вдвое, тянула вдвое больше картинок, и половина её
-     была спрятана за кликом. Теперь двуязычны только эти шесть строк. -->
+<!-- Одна страница, один язык — английский.
+     Переключателя нет и не будет: настоящее переключение прямо на этой
+     странице невозможно. GitHub вырезает из README и <script>, и <style>,
+     поэтому ни JS, ни CSS-приём с :target не работают. Определить язык на
+     стороне сервера тоже нельзя: любую внешнюю картинку GitHub тянет через
+     свой прокси camo, который ходит за ней один раз и без Accept-Language
+     читателя — все видят один и тот же кэш. Остаются только <details> с
+     двумя копиями (было, спрятано полстраницы) или два файла со ссылкой
+     друг на друга (уводит с профиля). Из плохих вариантов лучший — не
+     переключать вовсе. -->
 
 <br>
 
@@ -24,12 +27,9 @@
 Backend developer working in **Go**: services, REST/WebSocket/gRPC APIs, realtime logic and the data underneath.<br>
 When there is no one else for it, I take the frontend too (Angular/React).
 
-Бэкенд-разработчик на **Go**: проектирую сервисы, REST/WebSocket/gRPC API, реалтайм-логику и данные под ними.<br>
-При крайней необходимости закрываю и фронт (Angular/React).
-
 </div>
 
-<h3 align="center">Stack&nbsp;&nbsp;·&nbsp;&nbsp;Стек</h3>
+<h3 align="center">Stack</h3>
 
 <img src="https://raw.githubusercontent.com/Ryuga-Hideki-L/Ryuga-Hideki-L/main/divider.png" width="100%" alt="" />
 
@@ -61,15 +61,15 @@ When there is no one else for it, I take the frontend too (Angular/React).
 ![Linux](https://img.shields.io/badge/Linux-1a1a1a?style=flat-square&logo=linux&logoColor=FCC624)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-<h4>Frontend when needed&nbsp;&nbsp;·&nbsp;&nbsp;Фронт по необходимости</h4>
+<h4>Frontend when needed</h4>
 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 
-<h4>AI / LLM&nbsp;&nbsp;·&nbsp;&nbsp;ИИ / LLM</h4>
+<h4>AI / LLM</h4>
 
-<sub>deploying and fine-tuning LLMs; using AI tooling in day-to-day work where it helps<br>разворачиваю и дообучаю LLM, пользуюсь ИИ-инструментами там, где они помогают</sub>
+<sub>deploying and fine-tuning LLMs; using AI tooling in day-to-day work where it helps</sub>
 
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
