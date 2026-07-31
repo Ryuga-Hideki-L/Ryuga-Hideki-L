@@ -10,20 +10,34 @@ TODAY = datetime.date.today()
 MON = ["", "янв", "фев", "мар", "апр", "мая", "июн", "июл", "авг", "сен", "окт", "ноя", "дек"]
 
 
+# viewer, а не user(login:…).
+#
+# Календарь вкладов отдаёт приватные дни только «своему» запросу, и что
+# считается своим — зависит от типа токена. Через user(login:…) классический
+# PAT получает ТОЛЬКО публичное: карточка показывала 1845 при настоящих 2015,
+# и разница ровно в приватном репозитории, куда в тот день и шли коммиты.
+# viewer означает «тот, чьим токеном пришли», и приватное в него попадает.
+# Заодно тянем restrictedContributionsCount: если он не ноль, а календарь всё
+# равно пустой — значит токену приватное не видно, и об этом надо сказать
+# вслух, а не тихо нарисовать заниженную карточку.
 def gql(frm, to):
-    q = ('{user(login:"%s"){contributionsCollection(from:"%sT00:00:00Z",to:"%sT00:00:00Z")'
-         '{contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}'
-         % (USER, frm.isoformat(), to.isoformat()))
+    q = ('{viewer{contributionsCollection(from:"%sT00:00:00Z",to:"%sT00:00:00Z")'
+         '{restrictedContributionsCount '
+         'contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}'
+         % (frm.isoformat(), to.isoformat()))
     out = subprocess.run(["gh", "api", "graphql", "-f", "query=" + q], capture_output=True, text=True)
     out.check_returncode()
     return json.loads(out.stdout)
 
 
 days = {}
+restricted = 0
 cur = START
 while cur <= TODAY:
     nxt = min(cur.replace(year=cur.year + 1), TODAY + datetime.timedelta(days=1))
-    for w in gql(cur, nxt)["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]:
+    cc = gql(cur, nxt)["data"]["viewer"]["contributionsCollection"]
+    restricted += cc["restrictedContributionsCount"]
+    for w in cc["contributionCalendar"]["weeks"]:
         for cd in w["contributionDays"]:
             d = datetime.date.fromisoformat(cd["date"])
             if START <= d <= TODAY:
@@ -33,6 +47,10 @@ while cur <= TODAY:
 D = datetime.date.fromisoformat
 dates = sorted(days)
 total = sum(days.values())
+if restricted and total <= restricted:
+    print("ВНИМАНИЕ: приватных вкладов %d, а в календаре всего %d — "
+          "токен не видит приватное, карточка занижена" % (restricted, total))
+
 
 longest, run, prev, lrng, ls = 0, 0, None, (dates[0], dates[0]), None
 for ds in dates:
