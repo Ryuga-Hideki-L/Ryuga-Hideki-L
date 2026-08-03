@@ -16,7 +16,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,100:2d6db4&height=170&section=header&text=Ryuga%20Hideki&fontSize=48&fontColor=ffffff&desc=Backend%20Engineer%20%C2%B7%20Go&descSize=17&descAlignY=66&fontAlignY=40" alt="header" />
 
-![Stars](https://img.shields.io/badge/Stars-29-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
+![Stars](https://img.shields.io/badge/Stars-31-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
 ![Repositories](https://img.shields.io/badge/Repositories-29-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
 ![Private repos](https://img.shields.io/badge/Private%20repos-23-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
 ![Followers](https://img.shields.io/badge/Followers-3-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
