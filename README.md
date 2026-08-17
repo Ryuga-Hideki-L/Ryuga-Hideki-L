@@ -17,8 +17,8 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b2a,100:2d6db4&height=170&section=header&text=Ryuga%20Hideki&fontSize=48&fontColor=ffffff&desc=Backend%20Engineer%20%C2%B7%20Go&descSize=17&descAlignY=66&fontAlignY=40" alt="header" />
 
 ![Stars](https://img.shields.io/badge/Stars-32-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
-![Repositories](https://img.shields.io/badge/Repositories-39-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
-![Private repos](https://img.shields.io/badge/Private%20repos-32-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
+![Repositories](https://img.shields.io/badge/Repositories-40-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
+![Private repos](https://img.shields.io/badge/Private%20repos-33-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
 ![Followers](https://img.shields.io/badge/Followers-2-2d6db4?style=for-the-badge&logo=github&logoColor=white&labelColor=161b22)
 ![Focus](https://img.shields.io/badge/Focus-Go%20Backend-2d6db4?style=for-the-badge&logo=go&logoColor=white&labelColor=161b22)
 
